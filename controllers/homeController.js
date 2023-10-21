@@ -11,3 +11,13 @@ exports.facilitiesItem = (req, res) => {
     res.render("facilities");
     };
     
+    exports.event = (req, res) => {
+        res.render("event");
+        };
+    exports.contact = (req, res) => {
+        res.render("contact");
+        };
+    exports.postedContact = (req, res) => {
+        const username = req.body.name; // This corresponds to the "name" field in your form
+    res.render('welcome', { username: username });
+    };

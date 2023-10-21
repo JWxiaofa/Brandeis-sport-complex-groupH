@@ -21,7 +21,9 @@ res.send("Welcome to Brandeis Sports Complex");
 // adding three more routes that using callback functions
 app.get("/about", homeController.aboutUs);
 app.get("/facilities", homeController.facilitiesItem);
-
+app.get("/event", homeController.event);
+app.get("/contact", homeController.contact);
+app.post("/contact", homeController.postedContact);
 
 
 
