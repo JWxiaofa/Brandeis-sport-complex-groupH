@@ -60,3 +60,25 @@ table td,
 th {
   padding: 10px;
 }
+/*the font0family of h1*/
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*subtitle of membership page*/
+h3.membership{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:cadetblue;
+  font-weight: bold;
+}
+/*programs to shown in a unorder list*/
+ul.programs{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+/*different programs for different group of ppl*/
+tr.head{
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
