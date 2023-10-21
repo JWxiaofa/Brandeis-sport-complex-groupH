@@ -1,5 +1,5 @@
 header {
-    background-color: lavender;
+    background-color: skyblue;
     padding: 35px;
     padding-bottom: 20px;
     width: 100%;
@@ -9,11 +9,12 @@ header {
     width: 100%;
   }
   .header h1 {
-    color: rgb(141, 141, 216);
+    color: rgb(33, 85, 216);
+    font-family: 'Gill Sans';
   }
   .nav {
-    background-color: rgb(141, 141, 216);
-    box-shadow: 0 0 0.3em 0.1em rgb(205, 205, 227);
+    background-color: rgb(156, 216, 141);
+    box-shadow: 0 0 0.3em 0.1em rgb(99, 182, 221);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,12 +33,13 @@ header {
   .nav a:hover {
     background-color: lavender;
     color: rgb(141, 141, 216);
+    font-family: 'Gill Sans';
   }
   * {
     box-sizing: border-box;
   }
   footer {
-    background-color: lavender;
+    background-color: skyblue;
     color: rgb(125, 125, 141);
     text-align: center;
     position: fixed;
@@ -46,5 +48,5 @@ header {
   }
   table td,
   th {
-    padding: 20px;
+    padding: 10px;
   }
