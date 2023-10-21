@@ -1,12 +1,16 @@
+<!--title of this section-->
 <h1>Membership and Policy</h1>
 <br />
+<!--the body of this section-->
 <section>
+    <!--A simple intro sentence-->
     <article>
         <h4>All current Brandeis students, faculty, and staff, may use the athletic facilities free of charge.  
             A valid Brandeis ID card must be presented to enter and upon request.</h4>
     </article>
+    <!--to introduce what kinds of method does we have-->
     <articel>
-        <h3>What kinds of Membership we have....</h3>
+        <h3 class="membership">What kinds of Membership we have....</h3>
         <ul>
             <li>Alumni</li>
             <li>Immediate Family of current student, faculty or staff (must be 18 years or older) </li>
@@ -14,9 +18,10 @@
             <li>Current <a href="https://www.brandeis.edu/bolli/">BOLLI</a> Student</li>
         </ul>
     </article>
+    <!--to introduce the price of membership by using table-->
     <article>
-        <h3>Pricing</h3>
-        <table>
+        <h3 class="membership">Pricing</h3>
+        <table border="1px">
             <tr>
                 <td>$500</td>
                 <td>Full year</td>
@@ -33,20 +38,21 @@
                 <td>$100</td>
                 <td>Intersession Break</td>
             </tr>
-            <tr>
-                <td>All payments are due in full at the start of the membership period.  No refunds.<br />
-                    Credit card, cash and check payments accepted.</td>
-            </tr>
         </table>
+        <br />
+        <i>All payments are due in full at the start of the membership period.  No refunds.<br />
+        <b>Credit card, cash and check payments</b> accepted.</i>
     </article>
+    <!--to introduce the membership policy-->
     <article>
-        <h3>Membership Policy</h3>
+        <h3 class="membership">Membership Policy</h3>
         <p>Facility memberships can be purchased by eligible individuals by submitting a membership application.  
             Once information is verified and membership application approved, instructions will be sent for picking up membership cards.  
             Please contact Tom Rand (<a href="mailto:rand@brandeis.edu">rand@brandeis.edu</a>) or Michael Matt (<a href="mailto:mmatt@brandeis.edu">mmatt@brandeis.edu</a>) with any questions.</p>
     </article>
+    <!--to introduce the Guest policy-->
     <article>
-        <h3>Guest Policy</h3>
+        <h3 class="membership">Guest Policy</h3>
         <div>
             Current Brandeis students, faculty, staff, and members may bring guests into the facility. 
             <ul>
@@ -58,8 +64,9 @@
             No appointment is necessary.  Cash, checks and credit cards accepted.
         </div>
     </article>
+    <!--to introduce the child policy-->
     <article>
-        <h3>Child Policy</h3>
+        <h3 class="membership">Child Policy</h3>
         <div>
             Current Brandeis students, faculty, staff, and members may bring their children into the facility. 
             <ul>
@@ -70,5 +77,26 @@
             </ul>
         </div>
     </article>
+    <!--to let the user select which kind of membership they want to buy-->
+    <article>
+        <form action="/" method="post">
+            <label for="membership">Which membership do you want?</label><br />
+            <input type="radio" id="500" name="membership" />
+            <lable for="500">$500 per year</lable><br />
+            <input type="radio" id="300" name="memebership" />
+            <lable for="300">$300 per semester</lable><br />
+            <input type="radio" id="250" name="membership" />
+            <lable for="250">$250 per summer</lable><br />
+            <input type="radio" id="100" name="membership" />
+            <lable for="100">$100 per intersession break</lable> <br />
+            <input type="submit" value="Submit" />
+
+        </form>
+    </article>
+    <br />
+    <br />
+    <br />
+    <br />
+
 </section>
 
