@@ -2,6 +2,8 @@ const express = require("express");
 const homeController = require("./controllers/homeController");
 const layouts = require("express-ejs-layouts");
 
+const errorController = require("./controllers/errorController");
+
 const app = express();
 // Start the view engine and require the layouts
 app.set("view engine", "ejs");
@@ -26,6 +28,11 @@ app.get("/contact", homeController.contact);
 app.post("/contact", homeController.postedContact);
 app.get("/membership", homeController.membership);
 app.get("/programs", homeController.programs);
+
+
+//error handling should be at the end of all routers
+app.use(errorController.pageNotFoundError);
+app.use(errorController.internalServerError);
 
 // Start the server
 app.listen(app.get("port"), () => {

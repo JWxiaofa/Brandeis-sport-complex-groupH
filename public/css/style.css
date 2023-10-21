@@ -1,52 +1,52 @@
 header {
-    background-color: skyblue;
-    padding: 35px;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-  .header {
-    text-align: center;
-    width: 100%;
-  }
-  .header h1 {
-    color: rgb(33, 85, 216);
-    font-family: 'Gill Sans';
-  }
-  .nav {
-    background-color: rgb(156, 216, 141);
-    box-shadow: 0 0 0.3em 0.1em rgb(99, 182, 221);
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  .nav li {
-    display: inline;
-  }
-  .nav a {
-    display: inline-block;
-    padding: 10px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  .nav a:hover {
-    background-color: lavender;
-    color: rgb(141, 141, 216);
-    font-family: 'Gill Sans';
-  }
-  * {
-    box-sizing: border-box;
-  }
-  footer {
-    background-color: skyblue;
-    color: rgb(125, 125, 141);
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  table td,
-  th {
-    padding: 10px;
-  }
+  background-color: skyblue;
+  padding: 35px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.header {
+  text-align: center;
+  width: 100%;
+}
+.header h1 {
+  color: rgb(33, 85, 216);
+  font-family: "Gill Sans";
+}
+.nav {
+  background-color: rgb(156, 216, 141);
+  box-shadow: 0 0 0.3em 0.1em rgb(99, 182, 221);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: lavender;
+  color: rgb(141, 141, 216);
+  font-family: "Gill Sans";
+}
+* {
+  box-sizing: border-box;
+}
+footer {
+  background-color: skyblue;
+  color: rgb(125, 125, 141);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+table td,
+th {
+  padding: 10px;
+}
