@@ -1,3 +1,4 @@
+/* Header Design */
 header {
   background-color: skyblue;
   padding: 35px;
@@ -12,6 +13,13 @@ header {
   color: rgb(33, 85, 216);
   font-family: "Gill Sans";
 }
+/* The special header design for about.ejs page*/
+.aboutHeader {
+  color: rgb(191, 131, 208);
+  font-family: "Gill Sans";
+  text-align: center;
+}
+/* Navigation bar design */
 .nav {
   background-color: rgb(156, 216, 141);
   box-shadow: 0 0 0.3em 0.1em rgb(99, 182, 221);
@@ -38,6 +46,8 @@ header {
 * {
   box-sizing: border-box;
 }
+/* Footer design
+   */
 footer {
   background-color: skyblue;
   color: rgb(125, 125, 141);
